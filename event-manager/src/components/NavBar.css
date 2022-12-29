@@ -1,0 +1,22 @@
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-start: span 3;
+  background-color: lightgray;
+}
+
+.navbar .navbar-title {
+  grid-column-start: 1;
+  width: fit-content;
+  font-weight: bolder;
+  color: black;
+  justify-content: left;
+}
+
+.navbar .navbar-button {
+  grid-column-start: 3;
+  width: fit-content;
+  color: black;
+  justify-content: right;
+}

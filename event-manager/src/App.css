@@ -1,7 +1,5 @@
 .App {
-  text-align: center;
-}
-
-.App-link {
-  color: #61dafb;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: slategray;
 }
